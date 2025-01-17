@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 320px;
+      padding: 16px;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    .title {
+      font-size: 18px;
+      margin-bottom: 16px;
+      color: #333;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .pro-badge {
+      background: linear-gradient(45deg, #ff2442, #ff8a9c);
+      color: white;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 12px;
+    }
+    .setting {
+      margin-bottom: 12px;
+    }
+    .divider {
+      height: 1px;
+      background: #eee;
+      margin: 16px 0;
+    }
+    .support {
+      background: #f8f9fa;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+    .support-title {
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: #333;
+    }
+    .support-text {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 12px;
+    }
+    .buttons {
+      display: flex;
+      gap: 8px;
+    }
+    .button {
+      padding: 6px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 13px;
+      text-align: center;
+      flex: 1;
+    }
+    .primary {
+      background: #ff2442;
+      color: white;
+    }
+    .secondary {
+      background: #f0f0f0;
+      color: #333;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 16px;
+      font-size: 12px;
+      color: #666;
+    }
+    .author {
+      color: #ff2442;
+      text-decoration: none;
+    }
+    .about {
+      background: #f8f9fa;
+      padding: 12px;
+      border-radius: 8px;
+      margin: 16px 0;
+      font-size: 13px;
+      line-height: 1.6;
+      color: #444;
+    }
+    .highlight {
+      color: #ff2442;
+      font-weight: 500;
+    }
+    .links {
+      display: flex;
+      gap: 12px;
+      margin-top: 8px;
+    }
+    .link {
+      color: #ff2442;
+      text-decoration: none;
+      font-size: 13px;
+    }
+    .link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="title">
+    Cultural Translator
+  </div>
+  
+  <div class="setting">
+    <label>
+      <input type="checkbox" id="autoTranslate" checked>
+      Auto-translate content
+    </label>
+  </div>
+
+  <div class="about">
+    <div>A smart translator that not only translates Chinese social media content but also explains cultural references, internet memes, and historical allusions to help international users better understand Chinese online culture.</div>
+    <div class="links">
+      <a href="https://github.com/你的用户名/项目" target="_blank" class="link">GitHub</a>
+      <a href="https://space.bilibili.com/你的ID" target="_blank" class="link">Tutorial</a>
+      <a href="mailto:你的邮箱" class="link">Feedback</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Version 1.0.0</span>
+    <a href="https://github.com/你的用户名" target="_blank" class="author">@你的名字</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html> 
